@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h3 class="h-sm-2 font-weight-bold mt-3">Convert Numbers to Words</h3>
+
+<form id="form" class="mt-3">
+        <div class="mb-3">
+            <label for="nums-input" class="form-label font-weight-bold">Enter a number</label>
+            <input type="number" class="form-control" id="nums-input">
+        </div>
+        <div class="btn-group w-25" role="group" aria-label="Basic example">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+</form>
+
+<div id="parent" class="mt-1">
+    <div id="word-convert" class="mt-3"></div>
+</div>
+
